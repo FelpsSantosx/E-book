@@ -1,6 +1,8 @@
 @import url("Styles/Header.css");
 @import url("Styles/Banner.css");
 @import url("Styles/Carrossel.css");
+@import url("Styles/Topicos.css");
+@import url("Styles/Contatos.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -8,6 +10,7 @@
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --azul-forte: #002F52; 
 }
 
 body {

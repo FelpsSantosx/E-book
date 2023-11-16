@@ -1,0 +1,41 @@
+.contato {
+    background-color: var(--branco);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.contato__titulo {
+    background: var(--azul-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    background: var(--azul-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    margin: 1rem 0 ;
+}
+
+.contato__email {
+    border: 1px solid var(--azul-forte);
+    border-radius: 24px;
+    padding: 1rem;
+    width: 90%;
+    color: var(--azul-forte);
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul-forte);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background: url("../Assents/imagens/Email.svg") no-repeat;
+    background-position: 0.5rem;
+}
