@@ -3,7 +3,7 @@
 @import url("Styles/Carrossel.css");
 @import url("Styles/Topicos.css");
 @import url("Styles/Contatos.css");
-
+@import url("Styles/Rodape.css");
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFF;
