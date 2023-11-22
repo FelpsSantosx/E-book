@@ -1,6 +1,6 @@
 .contato {
     background-color: var(--branco);
-    text-align: center;
+    text-align: left;
     padding: 1.5rem;
 }
 
@@ -19,7 +19,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 300;
-    margin: 1rem 0 ;
+    margin: 1rem 0;
 }
 
 .contato__email {
@@ -38,4 +38,25 @@
     text-align: center;
     background: url("../Assents/imagens/Email.svg") no-repeat;
     background-position: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__descrição {
+        margin-right: 1rem;
+        width: 30%;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
 }

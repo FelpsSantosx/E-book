@@ -59,7 +59,7 @@
 
 .descrição__texto {
     font-size: 14px;
-} 
+}
 
 .botões__item {
     margin: 0 0.5rem;
@@ -73,6 +73,31 @@
     text-decoration: none;
 }
 
-.avaliação__imagem{
+.avaliação__imagem {
     margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+    }
+
+    .card{
+        width: 50%;
+        margin: 2rem auto;
+    }
 }
